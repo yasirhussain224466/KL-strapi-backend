@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "about-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "yearsInBusiness": {
+      "type": "biginteger"
+    },
+    "clientTrustUs": {
+      "type": "biginteger"
+    },
+    "industriesExplored": {
+      "type": "biginteger"
+    },
+    "vission": {
+      "type": "string"
+    },
+    "mission": {
+      "type": "string"
+    },
+    "whatWeOffer": {
+      "type": "string"
+    },
+    "ourClients": {
+      "type": "string"
+    },
+    "techImgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ourClientsLogo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "headingImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contentImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "xyz": {
+      "type": "richtext"
+    }
+  }
+}

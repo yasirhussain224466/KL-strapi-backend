@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mob_app_titles",
+  "info": {
+    "singularName": "mob-app-title",
+    "pluralName": "mob-app-titles",
+    "displayName": "mobAppTitle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

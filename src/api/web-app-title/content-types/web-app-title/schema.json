@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_app_titles",
+  "info": {
+    "singularName": "web-app-title",
+    "pluralName": "web-app-titles",
+    "displayName": "webAppTitle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

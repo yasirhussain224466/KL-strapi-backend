@@ -1,0 +1,142 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "case-study",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "caseStudyName": {
+      "type": "string",
+      "required": true
+    },
+    "appType": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img2": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "region": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "benefitsBoxvalue1": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": "text"
+    },
+    "challenge": {
+      "type": "text"
+    },
+    "solution": {
+      "type": "text"
+    },
+    "benefits": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::benefit.benefit"
+    },
+    "technologyStackPara": {
+      "type": "text"
+    },
+    "titleTag": {
+      "type": "string"
+    },
+    "metaTag": {
+      "type": "string"
+    },
+    "techImgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "caseStudyBody": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "benefitsBoxContent1": {
+      "type": "string"
+    },
+    "benefitsBoxvalue2": {
+      "type": "string"
+    },
+    "benefitsBoxvalue3": {
+      "type": "string"
+    },
+    "benefitsBoxvalue4": {
+      "type": "string"
+    },
+    "benefitsBoxContent2": {
+      "type": "string"
+    },
+    "benefitsBoxContent3": {
+      "type": "string"
+    },
+    "benefitsBoxContent4": {
+      "type": "string"
+    }
+  }
+}

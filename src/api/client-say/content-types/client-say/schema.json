@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_says",
+  "info": {
+    "singularName": "client-say",
+    "pluralName": "client-says",
+    "displayName": "clientSay",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "country": {
+      "type": "string"
+    }
+  }
+}

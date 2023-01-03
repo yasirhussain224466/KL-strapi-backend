@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs_contact_forms",
+  "info": {
+    "singularName": "blogs-contact-form",
+    "pluralName": "blogs-contact-forms",
+    "displayName": "blogsContactForm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "phoneNo": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mob_app_paras",
+  "info": {
+    "singularName": "mob-app-para",
+    "pluralName": "mob-app-paras",
+    "displayName": "mobAppPara",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "para": {
+      "type": "text"
+    }
+  }
+}

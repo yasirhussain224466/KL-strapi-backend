@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_page_contact_us_forms",
+  "info": {
+    "singularName": "home-page-contact-us-form",
+    "pluralName": "home-page-contact-us-forms",
+    "displayName": "HomePageContactUsForm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fname": {
+      "type": "string"
+    },
+    "lname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneNo": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_app_paras",
+  "info": {
+    "singularName": "web-app-para",
+    "pluralName": "web-app-paras",
+    "displayName": "webAppPara",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "para": {
+      "type": "text"
+    }
+  }
+}
